@@ -1,0 +1,49 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, physics, graphicx, hyperref}
+\title{ANOROC-String Gravity: UV-Finite Modification of General Relativity with Emergent Matter}
+\author{jc corona}
+\july{\21}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    We propose \textbf{ANOROC-String Gravity}, a modified gravity theory unifying string-inspired UV regularization and nonsingular cosmology. The framework introduces:
+    (1) an exponential curvature cutoff $f(K) = 1 - e^{-\beta K/K_{\text{max}}}$ to resolve singularities, 
+    (2) a quantum backreaction term $V_{\mu\nu} = \langle 0|T_{\mu\nu}|0 \rangle$ from string vacuum fluctuations, and 
+    (3) an emergent stress-energy tensor $T_{\mu\nu}^{(\text{string})}$ derived from Nambu-Goto dynamics. 
+    Predictions include modified GW ringdown signals ($\beta = 4\ln2$) and collider constraints ($\ell_s < 10^{-18}$ m).
+\end{abstract}
+
+\section{Field Equations}
+The action and field equations are:
+\begin{equation}
+    S = \int d^4x \sqrt{-g} \left[ \frac{f(K)R}{2\kappa} + \lambda f(K)\mathcal{L}_{\text{String}} \right],
+\end{equation}
+\begin{equation}
+    G_{\mu\nu} + f(K)H_{\mu\nu} + CV_{\mu\nu} = \kappa f(K)T_{\mu\nu}^{(\text{string})},
+\end{equation}
+where $K_{\text{max}} = \ell_s^{-4}$ and $\mathcal{L}_{\text{String}}$ is the Nambu-Goto action.
+
+\section{Key Features}
+\subsection{Singularity Resolution}
+The regulator $f(K)$ suppresses curvature at $K \sim K_{\text{max}}$, enabling nonsingular bounces.
+
+\subsection{Quantum Backreaction}
+$V_{\mu\nu}$ encodes 1-loop exact string vacuum effects, avoiding ad-hoc cutoffs.
+
+\section{Experimental Tests}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Observable} & \textbf{Prediction} & \textbf{Bound} \\ \hline
+        GW ringdown & $\beta$-dependent damping & LIGO-Virgo \\ \hline
+        String scale $\ell_s$ & $<10^{-18}$ m & LHC \\ \hline
+    \end{tabular}
+\end{table}
+
+\section*{Data Availability}
+Code and derivations: \href{https://github.com/yourusername/ANOROC}{GitHub} | \href{https://zenodo.org/yourDOI}{Zenodo}
+
+\end{document}
