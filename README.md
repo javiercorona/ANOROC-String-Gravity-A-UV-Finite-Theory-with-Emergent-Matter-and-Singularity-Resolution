@@ -1,5 +1,8 @@
 **A**pproach to **N**onlocal **O**rderly **R**elativity **O**ver **C**urvature
-**A UV-finite modified gravity theory with string-derived matter and singularity resolution.**
+**A 
+
+
+UV-finite modified gravity theory with string-derived matter and singularity resolution.**
 ![image](https://github.com/user-attachments/assets/837409a8-8c2d-46df-b825-6c7e1ae57169)
 
 ## Key Features
