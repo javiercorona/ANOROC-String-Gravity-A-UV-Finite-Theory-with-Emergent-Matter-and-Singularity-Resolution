@@ -4,6 +4,8 @@
 
 UV-finite modified gravity theory with string-derived matter and singularity resolution.**
 ![image](https://github.com/user-attachments/assets/837409a8-8c2d-46df-b825-6c7e1ae57169)
+![image](https://github.com/user-attachments/assets/972cab0c-1ace-4558-a01f-8b5239d27a90)
+
 
 ## Key Features
 - **Curvature Regularization**: Exponential cutoff `f(K) = 1 - exp(-βK/K_max)` resolves singularities.
